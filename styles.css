@@ -1,0 +1,306 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	
+
+}
+
+body{
+	margin: 0;
+
+}
+
+/*h1{
+	font-weight: 700;
+}*/
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+
+header{
+	background: #53a667;
+	/*width: 100%;*/
+	height: 74px;
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	z-index: 100;
+	justify-content: space-between;
+
+}
+
+header: :after{
+	clear: both;
+}
+header ul{
+	text-decoration: none;
+}
+
+.desktop-nav {
+	/*display: none;*/
+	
+
+}
+
+nav.desktop-nav{
+	display: none;
+}
+
+.menu-toggle{
+	position: absolute;
+	top: 58px;
+	min-width: 100%;
+
+}
+
+.menu-toggle .hamburger{
+	/*background: url('hamburger-icon.png');*/
+	/*float: right;*/
+	position:absolute;
+	right: 12px;
+    top: -37px;
+}
+
+.menu-toggle ul{
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+	background: pink;
+	padding: 10px;
+}
+
+.menu-toggle ul li{
+	margin: 10px;
+}
+
+a{
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+@media only screen and (min-width: 770px){
+
+	.desktop-nav{
+	/*display: inline-block;*/
+	
+	/*float: right;*/ 	
+	/*padding: 20px;*/
+	}
+
+	.desktop-nav ul{
+		margin-left: -14%;
+	}
+
+	.desktop-nav ul li{
+	display: inline-block;
+	/*float: left;*/
+	/*padding: 10px;*/
+	color: white;
+	margin-left: 15px;
+}
+
+	nav.desktop-nav{
+	display: inherit;
+	margin-top: 4.5%;
+    /*margin-right: 5%;*/
+    font-size: 1.2em;
+    padding-right: 13%
+}
+
+
+	.desktop-nav a{
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		/*margin-right: 32.5%;*/
+	}
+
+	.desktop-nav a:hover{
+		text-decoration: underline;
+		color: white;
+
+	}
+	.menu-toggle{
+		display: none;
+	}
+}
+
+#logo{
+	padding: 10px;
+	float: left;
+	margin-top: 2.5%;
+    margin-left: 13%;
+    font-size: 2.3em;
+
+}
+
+
+/*This is the main section styles*/
+
+main {
+	background: #53a667;
+	margin: auto;
+	color: white;
+	padding: 3% 13%;
+}
+
+#main-title{
+	font-size: 1.8em;
+}
+
+main a{
+	background: white;
+	padding: 10px 15px;
+	color: black;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-top: 10%;
+}
+
+main p:last-of-type{
+	margin-bottom: 10%;
+	
+}
+
+main h1{
+	/*font-size: 1 em !important;*/
+	margin-top: 10%;
+	font-weight: 700;
+
+}
+
+
+.info-section{
+	padding: 3% 13%;
+	text-align: center;
+
+}
+
+.info-section .info-header{
+	border-bottom: .3px solid black;
+	/*margin-bottom: 5%;*/
+	padding: 3% 0;
+	font-size: 1.5em;
+}
+
+.info-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+.info-grid{
+	margin-top: 3%;
+}
+
+.grid-item{
+	margin: 10%
+}
+
+.info-section span{
+	color: #53a667;
+	border-bottom: 0px
+}
+
+
+.info-section i {
+    color: #9a9a9a;
+    margin-bottom: 8%;
+  }
+
+
+
+.person{
+	font-weight: 700;
+	font-size: .8em;
+}
+
+
+/*these are the styles for the about section*/
+
+
+.about-section{
+	background: #1b1c20;
+	color: white;
+	padding: 3% 13%;
+}
+
+.about-section h3{
+	font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: .3px solid #686868;;
+    padding: 3% 0;
+    margin-bottom: 5%;
+}
+
+
+
+.about-section i{
+	float: left;
+	color: #686868;
+
+}
+
+.about-section h2{
+	margin-bottom: 30px;
+}
+
+.user-reviews{
+	padding-left: 5%;
+}
+
+.flex-group{
+	display: flex;
+}
+
+.flex-group p{
+	padding-left: 3%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+footer {
+	background: #232527;
+	color: white;
+	
+}
+
+footer .footer-content{
+	background: #232527;
+}
+
+footer h2{
+	padding-left: 40%;
+	margin: 3% 0;
+}
+
+footer ul{
+	padding-right: 18%;
+	margin: 3% 0;
+
+}
+
+footer ul li{
+	display: inline-block;
+	float: right;
+	margin: 0 2%;
+	/*padding-right: 13%;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
