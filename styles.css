@@ -17,8 +17,15 @@ body{
 img{
 	height: auto;
 	max-width: 100%;
+	margin-top: 28px;
 }
 
+
+@media only screen and (min-width: 770px){
+	img{
+		margin-top: 0;
+	}
+}
 
 header{
 	background: #53a667;
@@ -79,7 +86,7 @@ nav.desktop-nav{
     background: #ffffff;
     padding: 10px;
     z-index: 99;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .menu-toggle ul li{
